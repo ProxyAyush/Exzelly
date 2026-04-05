@@ -50,24 +50,69 @@ Installing Exzelly is designed to be effortless for professionals.
 
 ---
 
-## 🌟 KEY FEATURES
+## 🌟 CORE FEATURES & CAPABILITIES
 
-- **Native Excel Integration**: No external apps to switch between. Talk to your cells directly via a modeless sidebar.
-- **Corporate File Support (Robust OCR)**: Attach **PDF, Word (DOCX), Text, or Image** files. Exzelly's dense OCR pipeline extracts both text and visual layouts with zero information loss.
-- **Multimodal Audio**: Native support for processing voice notes and meeting recordings.
-- **Indian Business Context**: Built-in understanding of **GST, INR, Lakhs/Crores**, and Indian date formats.
-- **128K Context & AutoCompact**: Handles massive workbooks using advanced context management inspired by industry-leading agent architectures.
-- **Skill System**: Exzelly learns your specific workflows. Save complex tasks as persistent "Skills" for future use.
-- **Safety First**: No change is permanent until you click **Approve**. Full **Undo** support for all AI actions.
+### 1. Native Excel Sidebar
+Exzelly lives where you work. No more switching between browser tabs or external AI apps. The modeless sidebar stays open on the right, allowing you to click cells and type instructions simultaneously.
+
+### 2. Robust Multi-File & OCR Pipeline
+Exzelly isn't limited to cell data. You can "feed" it corporate documents to provide context:
+- **Supported Formats**: PDF, Word (DOCX), Text, and Images (JPG/PNG).
+- **Dense OCR**: Our custom pipeline extracts text and visual data from complex invoices, bank statements, and printed reports with zero information loss.
+- **Workflow**: Attach a PDF invoice -> Ask "Extract all line items and add them to this sheet" -> Exzelly maps the data automatically.
+
+### 3. Agent Mode: Autonomous Research
+Inspired by advanced industry architectures, **Agent Mode** allows Exzelly to perform multi-step tasks:
+- **Tool-Calling**: It can search your local folders, read files, and execute terminal commands to find the data you need.
+- **Example**: *"Find the latest purchase order in my Downloads folder, check if we've already paid it in this sheet, and if not, highlight it in red."*
+
+### 4. Indian Business Expertise
+Exzelly is natively tuned for the Indian professional context:
+- **GST & Taxation**: Automatically calculates CGST/SGST/IGST and TDS.
+- **Currency**: Native support for **INR (₹)** and the **Lakhs/Crores** numbering system.
+- **Regional Formats**: Understands Indian date formats (DD/MM/YYYY) and mixed English/Hindi data.
+
+### 5. 128K Context & AutoCompact
+Exzelly uses the massive **128,000-token window** of Gemma 4 E2B. 
+- **AutoCompact**: If your conversation grows too long, Exzelly automatically compresses older turns into dense factual summaries while protecting your most recent context.
+- **Permanent Memory**: Critical facts and user-defined rules are stored in a permanent `MEMORY.md` anchor that never gets deleted.
 
 ---
 
-## 🛡️ PRIVACY & SECURITY
+## 💼 CORPORATE USE CASES
 
-Exzelly is built on **Gemma 4 E2B** (Google DeepMind) and runs locally via **llama.cpp**. 
-- **100% Local**: No internet required after installation. Your data never leaves your RAM.
-- **Zero Telemetry**: No tracking, no logging to the cloud, no external dependencies.
-- **Closed Source**: Proprietary technology developed by Dr. Ayush Yadav.
+### Use Case A: Automated Financial Reporting
+**The Scenario**: You have 12 monthly CSV sales reports and a target PDF budget from your headquarters.
+**The Workflow**:
+1.  Attach the Budget PDF to Exzelly.
+2.  Select your sales data.
+3.  Ask: *"Compare these sales to the budget targets in the PDF. Identify which regions underperformed by more than 10% and suggest a Word document outline for the management report."*
+4.  **Result**: Exzelly highlights the gaps in Excel and generates a professional report structure in the chat.
+
+### Use Case B: Inventory & SKU Management
+**The Scenario**: A supplier sends a screenshot of their current stock list.
+**The Workflow**:
+1.  Upload the screenshot (PNG).
+2.  Ask: *"Read this image and update Column C (Current Stock) for all matching SKUs in my sheet. If a SKU is missing, add it to the bottom."*
+3.  **Result**: Exzelly's OCR reads the image, matches the SKUs, and proposes the updates.
+
+### Use Case C: Learning Your Workflow (The Skill System)
+**The Scenario**: You spend 20 minutes every Monday morning cleaning up non-standard bank exports.
+**The Workflow**:
+1.  Clean the data once with Exzelly's help.
+2.  Click **Approve**.
+3.  Exzelly asks: *"Should I save this as a Skill?"* -> Click **Yes**.
+4.  Next Monday, just click the **"Bank Cleanup" Skill**, and Exzelly repeats the entire logic instantly.
+
+---
+
+## 🛡️ PRIVACY, SECURITY & TRUST
+
+Exzelly is built for the era of data sovereignty.
+- **100% Local**: No internet required. Your sensitive business data never leaves your computer.
+- **No Telemetry**: We do not track your usage, prompts, or data.
+- **Open Model Integrity**: Powered by **Gemma 4 E2B** (Google DeepMind), a state-of-the-art open-weights model.
+- **Closed Source Proprietary Build**: A highly optimized, professional-grade binary developed by Dr. Ayush Yadav.
 
 ---
 
