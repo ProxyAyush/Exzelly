@@ -1,6 +1,17 @@
 # EXZELLY — Your Personal AI Spreadsheet Assistant (v1.4)
 
-Exzelly is a **fully local, private, and closed-source AI assistant** embedded directly inside Microsoft Excel. It helps you analyze, transform, and understand your spreadsheet data using plain English—all on your own computer.
+Exzelly is a **fully local, private, and proprietary AI assistant** embedded directly inside Microsoft Excel. It helps you analyze, transform, and understand your spreadsheet data using plain English—all on your own computer.
+
+---
+
+## ⚡ QUICK START (ONE-CLICK INSTALL)
+
+Installing Exzelly is designed to be effortless for professionals. 
+
+1.  **Download**: Get the [**Latest Exzelly Installer (.bat)**](https://github.com/ProxyAyush/Exzelly/releases/latest/download/Install_Exzelly.bat).
+2.  **Run**: Double-click the file. It will automatically download the AI engine, the standalone app, and the Excel macro.
+3.  **Setup**: Open Excel, go to the **Developer tab**, click **Import File**, and select `excel_vba.bas` from your installation folder.
+4.  **Activate**: Click the **Exzelly** button in your sidebar and start talking to your data.
 
 ---
 
@@ -41,39 +52,22 @@ Exzelly is a **fully local, private, and closed-source AI assistant** embedded d
 
 ## 🌟 KEY FEATURES
 
-- **Native Excel Sidebar**: No external apps to switch between. Talk to your cells directly.
-- **Corporate File Support (Robust OCR)**: Attach **PDF, Word (DOCX), Text, or Image** files. Exzelly's dense OCR pipeline extracts both text and visual layouts, preventing information loss while keeping your AI fast.
-- **Multimodal Audio**: Upload voice notes or meeting recordings to extract data and action items.
-- **Indian Business Ready**: Native understanding of **GST, INR, Lakhs/Crores**, and Indian date formats.
-- **128K Context & AutoCompact**: Exzelly monitors its massive 128,000-token memory. If it approaches the limit, it automatically performs a smart compaction (summarizing history while protecting key facts in a permanent `MEMORY.md`), preventing "context rot."
-- **Smart Session Management**: Chats are automatically given short, clever titles and saved so you can resume your workflows later.
-- **Skill System**: Exzelly learns from you. Save complex tasks as persistent "Skills" for one-click future execution.
-- **Approve/Undo Safety**: No change is permanent until you click **Approve**. One-click **Undo** for peace of mind.
-
----
-
-## 🚀 ONE-CLICK INSTALLATION
-
-1. **Download the Installer**: 
-   Click on the **[Latest Release](https://github.com/ProxyAyush/Exzelly/releases/latest)** and download `Install_Exzelly.bat`.
-   
-2. **Run the Script**: 
-   Double-click the `.bat` file. Select an installation folder. The installer will automatically download the AI model and the standalone `Exzelly.exe`.
-
-3. **Open Excel**:
-   Go to the **Developer tab** -> **Visual Basic** -> **File** -> **Import File...** and select `excel_vba.bas` from your installation folder.
-
-4. **Start Exzelly**:
-   Run the `Exzelly_ShowPanel` macro to open your sidebar.
+- **Native Excel Integration**: No external apps to switch between. Talk to your cells directly via a modeless sidebar.
+- **Corporate File Support (Robust OCR)**: Attach **PDF, Word (DOCX), Text, or Image** files. Exzelly's dense OCR pipeline extracts both text and visual layouts with zero information loss.
+- **Multimodal Audio**: Native support for processing voice notes and meeting recordings.
+- **Indian Business Context**: Built-in understanding of **GST, INR, Lakhs/Crores**, and Indian date formats.
+- **128K Context & AutoCompact**: Handles massive workbooks using advanced context management inspired by industry-leading agent architectures.
+- **Skill System**: Exzelly learns your specific workflows. Save complex tasks as persistent "Skills" for future use.
+- **Safety First**: No change is permanent until you click **Approve**. Full **Undo** support for all AI actions.
 
 ---
 
 ## 🛡️ PRIVACY & SECURITY
 
 Exzelly is built on **Gemma 4 E2B** (Google DeepMind) and runs locally via **llama.cpp**. 
-- **Zero Cloud**: Your data is never uploaded to any server.
-- **Closed Source**: This is a proprietary tool developed by Dr. Ayush Yadav.
-- **Security**: Runs as a standalone process on your machine.
+- **100% Local**: No internet required after installation. Your data never leaves your RAM.
+- **Zero Telemetry**: No tracking, no logging to the cloud, no external dependencies.
+- **Closed Source**: Proprietary technology developed by Dr. Ayush Yadav.
 
 ---
 
