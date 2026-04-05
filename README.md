@@ -42,10 +42,11 @@ Exzelly is a **fully local, private AI assistant** embedded directly inside Micr
 ## 🌟 KEY FEATURES
 
 - **Native Excel Sidebar**: No external apps to switch between. Talk to your cells directly.
-- **Corporate File Support**: Add context by attaching **PDF, Word (DOCX), or Text** documents.
+- **Corporate File Support (Robust OCR)**: Attach **PDF, Word (DOCX), Text, or Image** files. Exzelly's dense OCR pipeline extracts both text and visual layouts, preventing information loss while keeping your AI fast.
 - **Multimodal Audio**: Upload voice notes or meeting recordings to extract data and action items.
 - **Indian Business Ready**: Native understanding of **GST, INR, Lakhs/Crores**, and Indian date formats.
-- **128K Context Window**: Exzelly "remembers" thousands of rows and multiple documents at once.
+- **128K Context & AutoCompact**: Exzelly monitors its massive 128,000-token memory. If it approaches the limit, it automatically performs a smart compaction (summarizing history while protecting key facts in a permanent `MEMORY.md`), preventing "context rot."
+- **Smart Session Management**: Chats are automatically given short, clever titles and saved so you can resume your workflows later.
 - **Skill System**: Exzelly learns from you. Save complex tasks as persistent "Skills" for one-click future execution.
 - **Approve/Undo Safety**: No change is permanent until you click **Approve**. One-click **Undo** for peace of mind.
 

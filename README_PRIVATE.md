@@ -39,33 +39,33 @@ AI Spreadsheet & Workspace Assistant powered by **Gemma 4 E2B** (Local, Private,
 
 ---
 
-## 🚀 LATEST FEATURES
+## 🚀 LATEST FEATURES (v1.4)
 
 ### 1. 🧬 Soul & Skill System
 - **Soul (`soul.md`)**: Defines Exzelly's native Indian business expertise and multimodal capabilities.
 - **Skills (`skill.md`)**: A persistent learning layer. After a task is approved, Exzelly asks to save the logic as a "Skill" for future use.
 
-### 2. 📁 Multi-File & Multimodal Support
+### 2. 📁 Multi-File & Multimodal Support (Robust OCR Pipeline)
 - **Files**: Native support for **PDF, DOCX, and TXT**. Content is automatically injected into the 128K context.
+- **Vision & Image Data**: Incorporates `PyMuPDF` and `pytesseract` to compress heavy image data within PDFs into highly-dense OCR text. This prevents "information loss" while keeping context token counts exceptionally low.
 - **Audio**: Can process meeting recordings and voice notes directly. Transcribes and extracts action items into the spreadsheet.
 - **Office Integration**: Generate professional **Word outlines** and **PowerPoint slides** from cell data.
 
-### 3. 🧠 128K Context Window (Managed)
+### 3. 🧠 128K Context & AutoCompact (Claude Code Inspired)
 - **Massive Memory**: Can read and cross-reference thousands of spreadsheet rows with long-form text documents in one prompt.
-- **AdapKV Logic**: Intelligent "Heavy-Hitter" identification ensures headers and key labels are never pruned from context, even in massive workbooks.
-- **CPU Optimized**: Uses physical core detection and memory-mapped files (mmap) for high-performance inference on standard Windows laptops.
+- **Context Monitoring**: The server constantly estimates your token footprint. If it breaches 100K tokens, it alerts you.
+- **AutoCompact**: Inspired by leaked internal AI logic, Exzelly performs "AutoCompaction." It uses the LLM to summarize older conversation history into dense, highly factual representations while preserving the 4 most recent turns.
+- **MEMORY.md**: A permanent, 150-char-per-line anchor. Critical facts, rules, and findings are written here and are *never* compacted, preventing "context rot" over long sessions.
+- **Session Management**: Automatically generates short, clever names (e.g., "Invoice Cleanup", "Q3 Analysis") and saves histories to the `sessions/` folder.
 
-### 4. 🔒 Standalone EXE Build
+### 4. 🤖 Agent Mode & Orchestration
+- **Agentic Loop**: A multi-turn reasoning system where Exzelly can "Think" before acting.
+- **Tool-Calling**: The AI has access to the local machine via specific tools (`shell_exec`, `list_files`, `read_file`).
+- **Orchestration Rules (`EXZELLY_RULES.md`)**: Forces the agent into a "Coordinator Mode": Plan -> Research -> Implement -> Verify, strictly limiting "lazy delegation."
+
+### 5. 🔒 Standalone EXE Build
 - **`Exzelly.exe`**: Built using PyInstaller. Bundles the server, tray app, and soul/skill files into a single, clean executable.
 - **No Python Required**: End-users do not need to install Python; the installer handles the local environment.
-
-### 5. 🤖 Agent Mode (Claude Code Inspired)
-- **Agentic Loop**: A multi-turn reasoning system where Exzelly can "Think" before acting.
-- **Tool-Calling**: The AI has access to the local machine via specific tools:
-    - `shell_exec`: Run terminal commands (e.g., `git`, `dir`, `python`).
-    - `list_files`: Discover files in the workspace.
-    - `read_file`: Deep-read documents (PDF, DOCX, TXT) for research.
-- **Autonomous Research**: If you ask a question that requires external data (e.g., "Find the latest invoice in my Downloads folder"), Exzelly can now research the file system and return the answer.
 
 ---
 
