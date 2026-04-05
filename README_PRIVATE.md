@@ -59,6 +59,14 @@ AI Spreadsheet & Workspace Assistant powered by **Gemma 4 E2B** (Local, Private,
 - **`Exzelly.exe`**: Built using PyInstaller. Bundles the server, tray app, and soul/skill files into a single, clean executable.
 - **No Python Required**: End-users do not need to install Python; the installer handles the local environment.
 
+### 5. 🤖 Agent Mode (Claude Code Inspired)
+- **Agentic Loop**: A multi-turn reasoning system where Exzelly can "Think" before acting.
+- **Tool-Calling**: The AI has access to the local machine via specific tools:
+    - `shell_exec`: Run terminal commands (e.g., `git`, `dir`, `python`).
+    - `list_files`: Discover files in the workspace.
+    - `read_file`: Deep-read documents (PDF, DOCX, TXT) for research.
+- **Autonomous Research**: If you ask a question that requires external data (e.g., "Find the latest invoice in my Downloads folder"), Exzelly can now research the file system and return the answer.
+
 ---
 
 ## 📂 REPOSITORY STRUCTURE
