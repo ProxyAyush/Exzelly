@@ -37,10 +37,17 @@ curl -L -O "%REPO_URL%/excel_vba.bas"
 echo [3/6] Setting up environment (Portable AI runtime included in .exe)...
 :: No separate Python setup needed for the EXE, but dependencies might still be needed for llama.cpp
 
-:: 4. Download AI Model
-echo [4/6] Downloading Gemma 4 E2B AI Model (~2.7 GB)...
+:: 4. Download AI Model (Split Parts due to GitHub 2GB Limit)
+echo [4/6] Downloading Gemma 4 E2B AI Model parts...
 mkdir models
-curl -L -o "models/gemma-4-E2B-it-Q8_0.gguf" "%REPO_URL%/gemma-4-E2B-it-Q8_0.gguf"
+cd models
+curl -L -O "%REPO_URL%/gemma-model-part.aa"
+curl -L -O "%REPO_URL%/gemma-model-part.ab"
+
+echo [INFO] Joining model parts...
+copy /b gemma-model-part.aa + gemma-model-part.ab gemma-4-E2B-it-Q8_0.gguf
+del gemma-model-part.*
+cd ..
 
 :: 5. Create Shortcuts
 echo [5/6] Creating Desktop & Start Menu shortcuts...
