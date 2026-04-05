@@ -1,6 +1,6 @@
-# EXZELLY — Your Personal AI Spreadsheet Assistant (v1.3)
+# EXZELLY — Your Personal AI Spreadsheet Assistant (v1.4)
 
-Exzelly is a **fully local, private AI assistant** embedded directly inside Microsoft Excel. It helps you analyze, transform, and understand your spreadsheet data using plain English—all on your own computer. **No internet required. No data leaves your machine.**
+Exzelly is a **fully local, private, and closed-source AI assistant** embedded directly inside Microsoft Excel. It helps you analyze, transform, and understand your spreadsheet data using plain English—all on your own computer.
 
 ---
 
@@ -68,13 +68,13 @@ Exzelly is a **fully local, private AI assistant** embedded directly inside Micr
 
 ---
 
-## 🛡️ PRIVACY & TRUST
+## 🛡️ PRIVACY & SECURITY
 
 Exzelly is built on **Gemma 4 E2B** (Google DeepMind) and runs locally via **llama.cpp**. 
 - **Zero Cloud**: Your data is never uploaded to any server.
-- **Open Model**: Uses the Apache 2.0 licensed Gemma 4 model.
+- **Closed Source**: This is a proprietary tool developed by Dr. Ayush Yadav.
 - **Security**: Runs as a standalone process on your machine.
 
 ---
 
-*For detailed technical documentation, please refer to the private development repository.*
+*Copyright (c) 2026 Dr. Ayush Yadav. Proprietary and Confidential.*
