@@ -9,9 +9,16 @@ Exzelly is a **fully local, private, and proprietary AI assistant** embedded dir
 Installing Exzelly is designed to be effortless for professionals. 
 
 1.  **Download**: Get the [**Latest Exzelly Installer (.bat)**](https://github.com/ProxyAyush/Exzelly/releases/latest/download/Install_Exzelly.bat).
-2.  **Run**: Double-click the file. It will automatically download the AI engine, the standalone app, and the Excel macro.
-3.  **Setup**: Open Excel, go to the **Developer tab**, click **Import File**, and select `excel_vba.bas` from your installation folder.
-4.  **Activate**: Click the **Exzelly** button in your sidebar and start talking to your data.
+2.  **Run**: Double-click the file. It will automatically download the AI engine and the standalone app.
+3.  **Activate**: No macros needed! Just press **`Ctrl + Shift + E`** anywhere in Excel (Desktop or Web) to open your AI sidebar.
+
+---
+
+## 🌍 UNIVERSAL MACRO-FREE MODE
+Can't use macros? No problem. Exzelly v1.4.1 introduces the **Universal Bridge**:
+- **Excel Web (Office.com)**: Uses a smart clipboard bridge. Just select your cells and press the hotkey.
+- **Excel Desktop (Locked)**: Uses the Windows COM API to talk to Excel from the outside, bypassing macro security.
+- **Any App**: It even works in Google Sheets or Notepad via the clipboard fallback!
 
 ---
 
