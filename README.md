@@ -4,16 +4,14 @@ Exzelly is a **fully local, private, and proprietary AI assistant** embedded dir
 
 ---
 
-## ⚡ INSTALLATION INSTRUCTIONS
+## ⚡ QUICK START (ONE-CLICK INSTALL)
 
-To get started, you only need to download **one** file.
+Installing Exzelly is now easier than ever with our new **GUI Installer**.
 
-1.  **Download the Installer**: Click here to download [**Install_Exzelly.bat**](https://github.com/ProxyAyush/Exzelly/releases/latest/download/Install_Exzelly.bat).
-    *   *Note: If the link above doesn't work yet (build in progress), download it from the file list in this repository.*
-2.  **Run the Installer**: Double-click the `.bat` file on your Windows computer. 
-    *   It will automatically download the AI Engine, the Standalone App (`Exzelly.exe`), and the Excel components.
-    *   It will set up your local environment and create a Desktop shortcut.
-3.  **Activate Exzelly**: Once finished, press **`Ctrl + Shift + E`** anywhere in Excel to open your AI sidebar. **No macros or setup required!**
+1.  **Download**: Get the [**Exzelly_Installer.exe**](https://github.com/ProxyAyush/Exzelly/releases/latest/download/Exzelly_Installer.exe).
+2.  **Run**: Open the installer. It will ask where you want to install Exzelly.
+3.  **Automatic Setup**: The installer will show a progress bar while it downloads the AI engine and re-assembles the 2.7GB model for you.
+4.  **Activate**: Once finished, press **`Ctrl + Shift + E`** in Excel (Web or Desktop) to start.
 
 ---
 
