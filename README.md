@@ -71,6 +71,14 @@ Handles massive datasets using advanced context management. It natively supports
 
 ---
 
+## 🛠️ PROFESSIONAL MANAGEMENT
+Exzelly is built to be a first-class citizen on Windows:
+- **Control Panel Integration**: Exzelly appears in your Windows **"Add or Remove Programs"** list for easy management.
+- **Official Uninstaller**: Every installation includes `Uninstall_Exzelly.exe` for a 100% clean removal of all files, shortcuts, and registry keys.
+- **Detailed Logging**: Both the installer and the app generate detailed logs (`exzelly_install.log`) to help troubleshoot any system-specific issues.
+
+---
+
 ## 🛡️ PRIVACY & SECURITY
 
 - **100% Local**: No internet required. Your data never leaves your computer.
