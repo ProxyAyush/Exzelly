@@ -1,4 +1,4 @@
-# EXZELLY — Your Personal AI Spreadsheet Assistant (v1.4.1)
+# EXZELLY — Your Personal AI Spreadsheet Assistant (v1.4.2)
 
 Exzelly is a **fully local, private, and proprietary AI assistant** embedded directly inside Microsoft Excel. It helps you analyze, transform, and understand your spreadsheet data using plain English—all on your own computer.
 
@@ -54,7 +54,7 @@ Installing Exzelly is now easier than ever with our new **GUI Installer**.
 ## 🌟 CORE FEATURES & CAPABILITIES
 
 ### 1. Universal Macro-Free Bridge
-Can't use macros on your Excel plan? No problem. Exzelly v1.4.1 works as a global Windows assistant. Use the **`Ctrl+Shift+E`** hotkey to trigger the AI sidebar on **Excel Web, Desktop (Locked), or even Google Sheets**.
+Can't use macros on your Excel plan? No problem. Exzelly v1.4.2 works as a global Windows assistant. Use the **`Ctrl+Shift+E`** hotkey to trigger the AI sidebar on **Excel Web, Desktop (Locked), or even Google Sheets**.
 
 ### 2. Robust Multi-File & OCR Pipeline
 Attach corporate documents to provide context for your data:
