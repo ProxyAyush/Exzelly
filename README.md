@@ -10,7 +10,8 @@ Installing Exzelly is now easier than ever with our new **GUI Installer**.
 
 1.  **Download**: Get the [**Exzelly_Installer.exe**](https://github.com/ProxyAyush/Exzelly/releases/latest/download/Exzelly_Installer.exe).
 2.  **Run**: Open the installer. It will ask where you want to install Exzelly.
-3.  **Automatic Setup**: The installer will show a progress bar while it downloads the AI engine and re-assembles the 2.7GB model for you.
+3. **Automatic Setup**: The installer will show a progress bar while it downloads the **Qwen 3.5 VL** engine and re-assembles the 2.4GB model for you.
+
 4.  **Activate**: Once finished, press **`Ctrl + Shift + E`** in Excel (Web or Desktop) to start.
 
 ---
@@ -58,15 +59,15 @@ Can't use macros on your Excel plan? No problem. Exzelly v1.4.1 works as a globa
 ### 2. Robust Multi-File & OCR Pipeline
 Attach corporate documents to provide context for your data:
 - **Supported Formats**: PDF, Word (DOCX), Text, and Images (JPG/PNG).
-- **Dense OCR**: Automatically extracts data from complex invoices and bank statements with zero information loss.
+- **Dense OCR**: Powered by **Qwen 3.5 VL**, it automatically extracts data from complex invoices and bank statements with zero information loss.
 
 ### 3. Agent Mode: Autonomous Research
 Exzelly can perform multi-step tasks using local tools:
 - **Tool-Calling**: It can search your folders, read files, and execute terminal commands.
 - **Example**: *"Find the latest purchase order in my Downloads, check it against this sheet, and highlight discrepancies."*
 
-### 4. 128K Context & AutoCompact
-Handles massive datasets using advanced context management. It automatically summarizes long conversation histories while protecting key facts in a permanent **Memory Index**, preventing "context rot."
+### 4. 256K Context & AutoCompact
+Handles massive datasets using advanced context management. It natively supports a **256,000-token window**, automatically summarizing long conversation histories while protecting key facts in a permanent **Memory Index**.
 
 ---
 
